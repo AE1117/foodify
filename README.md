@@ -1,2 +1,3 @@
-# foodify
-A web-based recipe and recommendation app designed in a phone format using local rule-based artificial intelligence. (You can make step-by-step recipes without an internet connection.)
+Bu program yemek yapmayı insanlara sevdirmek için yapılmıştır. Adım adım tarifler tamamlanabilir, kullanıcının envanteri dinamik olarak takip edilebilir, internet bağlantısı olmadan yazılan kelimelere göre rule-based bir yapay zeka kullanılarak kullanıcıya tarif önerilebilir, bu öneriler ayrıca kullanıcıya göre farklılık gösterebilir.
+
+  Fronted = HTML, CSS, JS
