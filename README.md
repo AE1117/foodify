@@ -162,4 +162,8 @@ In the final stage, the recipe is re-ranked based on these adjusted scores. This
 
 HTML files (index.html, profile.html, inventory.html, add_to_inventory.html, recipe.html, steps.html, ai_assistant.html) :
 
-Just HTML files with bunch of JS codes. (AI made JS codes 🤫)
+Just HTML files with bunch of JS codes. 
+
+
+
+© 2025 All rights to this code owned by Murad Anıl Kurt
