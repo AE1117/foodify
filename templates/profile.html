@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Profil</title>
+<style>
+    body {
+        margin: 0;
+        font-family: Arial, sans-serif;
+        background-color: #f9f9f9;
+    }
+
+    /* nvbar */
+    header {
+        position: fixed;
+        top: 0;
+        width: 100%;
+        background-color: #ff6347; /* turuncu */
+        color: white;
+        display: flex;
+        align-items: center;
+        padding: 10px 15px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+        z-index: 1000;
+    }
+
+    header a {
+        color: white;
+        text-decoration: none;
+        font-size: 18px;
+        font-weight: bold;
+    }
+
+    main {
+        margin-top: 70px; /* header yüksekliği */
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        padding: 20px;
+    }
+
+    h1 {
+        color: #333;
+    }
+
+    /* envanter butonu */
+    .inventory-btn {
+        background-color: #ff6347;
+        color: white;
+        border: none;
+        padding: 20px 50px;
+        font-size: 20px;
+        font-weight: bold;
+        border-radius: 30px;
+        cursor: pointer;
+        transition: 0.2s;
+        margin: 40px 0;
+        box-shadow: 0 4px 10px rgba(0,0,0,0.2);
+    }
+
+    .inventory-btn:hover {
+        transform: scale(1.05);
+        box-shadow: 0 6px 14px rgba(0,0,0,0.3);
+    }
+
+    /* istatistikler bölümü */
+    .stats-container {
+        display: flex;
+        gap: 20px;
+        flex-wrap: wrap;
+        justify-content: center;
+        width: 100%;
+        max-width: 600px;
+        margin-top: 20px;
+    }
+
+    .stat-box {
+        background: white;
+        padding: 20px;
+        flex: 1 1 200px;
+        text-align: center;
+        border-radius: 15px;
+        box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+        transition: 0.2s;
+        cursor: default;
+    }
+
+    .stat-box:hover {
+        transform: translateY(-5px);
+        box-shadow: 0 6px 14px rgba(0,0,0,0.2);
+    }
+
+    .stat-box h2 {
+        margin: 0 0 10px 0;
+        color: #ff6347;
+    }
+
+    .stat-box p {
+        margin: 0;
+        font-size: 18px;
+        font-weight: bold;
+        color: #333;
+    }
+</style>
+</head>
+<body>
+<header>
+    <a href="/">← Ana Sayfa</a>
+</header>
+
+<main>
+    <h1>Kullanıcı Profil Sayfası</h1>
+
+    <!-- Envanter butonu -->
+    <button class="inventory-btn" onclick="window.location.href='/inventory'">Envanter</button>
+
+
+    <!-- istatistikler -->
+    <div class="stats-container">
+        <div class="stat-box">
+            <h2>Tamamlanan Tarifler</h2>
+            <p id="completed-count">0</p>
+        </div>
+        <!-- ileride başka istatistik kutuları eklenebilir -->
+    </div>
+</main>
+
+<script>
+    // history.json dan tamamlanan tarif sayısını al ve göster
+    fetch('/get_history')
+        .then(res => res.json())
+        .then(data => {
+            const countEl = document.getElementById('completed-count');
+            if (data && data.history) {
+                countEl.textContent = data.history.length;
+            }
+        })
+        .catch(err => console.error("History yüklenemedi:", err));
+</script>
+</body>
+</html>

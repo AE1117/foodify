@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Envantere Malzeme Ekle</title>
+<style>
+body { font-family: Arial, sans-serif; margin:0; background:#f9f9f9; }
+header { position: fixed; top:0; width:100%; background:#ff6347; color:white; display:flex; align-items:center; padding:10px 15px; box-shadow:0 2px 5px rgba(0,0,0,0.1); z-index:1000; }
+header a { color:white; text-decoration:none; font-weight:bold; font-size:18px; }
+main { margin-top:110px; padding:20px; }
+.item-card { background:white; margin-bottom:10px; padding:10px 15px; border-radius:10px; display:flex; justify-content:space-between; align-items:center; box-shadow:0 1px 5px rgba(0,0,0,0.1); }
+.item-card button { background:green; color:white; border:none; border-radius:50%; width:25px; height:25px; cursor:pointer; font-weight:bold; }
+.search-bar { width:100%; padding:8px; border-radius:5px; border:none; margin-bottom:15px; font-size:16px; box-shadow:0 1px 5px rgba(0,0,0,0.1); }
+</style>
+</head>
+<body>
+
+<header>
+    <a href="/inventory">←</a>
+    <span>Envantere Malzeme Ekle</span>
+</header>
+
+<main>
+    <div style="margin: 10px 0;">
+    <button id="refresh-btn" style="
+        width: 100%;
+        background: #ff6347;
+        color: white;
+        border: none;
+        padding: 12px 0;
+        border-radius: 12px;
+        font-size: 16px;
+        font-weight: bold;
+        cursor: pointer;
+        transition: background 0.2s;
+    ">Malzemeleri Yenile</button>
+</div>
+
+<script>
+document.getElementById("refresh-btn").addEventListener("click", function(){
+    fetch("/refresh_ingredients", {method:"POST"})
+    .then(res => res.json())
+    .then(data => {
+        if(data.status === "ok"){
+            alert("Yeni malzemeler eklendi: " + data.added.join(", "));
+            location.reload();
+        } else {
+            alert("Hata: " + data.message);
+        }
+    }).catch(err => console.error(err));
+});
+</script>
+
+
+    <input type="text" id="search-bar" class="search-bar" placeholder="Malzeme ara..." oninput="filterItems()">
+    <div id="items-container">
+        {% for item in items %}
+        <div class="item-card" data-name="{{ item.name | lower }}">
+            <span>{{ item.name }}</span>
+            <button onclick="addItem('{{ item.name }}', this)">+</button>
+        </div>
+        {% endfor %}
+    </div>
+</main>
+
+<script>
+function addItem(name, btn){
+    fetch("/add_to_inventory_item/"+encodeURIComponent(name), {method:"POST"})
+    .then(res => res.json())
+    .then(data => {
+        if(data.status==="ok"){
+            // DOM'dan kaldır
+            btn.parentElement.remove();
+        } else {
+            alert("Malzeme eklenemedi: "+data.message);
+        }
+    }).catch(err => console.error(err));
+}
+
+function filterItems(){
+    const query = document.getElementById("search-bar").value.toLowerCase();
+    const cards = document.querySelectorAll(".item-card");
+    cards.forEach(card => {
+        const name = card.getAttribute("data-name");
+        card.style.display = name.includes(query) ? "flex" : "none";
+    });
+}
+</script>
+
+</body>
+</html>

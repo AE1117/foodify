@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Biseyler mi yesek?</title>
+<style>
+    body {
+        font-family: Arial, sans-serif;
+        margin: 0;
+        padding: 0;
+        background: #f5f5f5;
+    }
+    header {
+        position: fixed; /* Sabitle */
+        top: 0;
+        left: 0;
+        width: 100%;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        padding: 10px;
+        background-color: #ff6347;
+        color: white;
+        z-index: 1000; /* Her zaman üstte */
+        box-shadow: 0 2px 5px rgba(0,0,0,0.2);
+    }
+    header .profile {
+        background: white;
+        color: #ff6347;
+        padding: 5px 10px;
+        border-radius: 5px;
+        font-weight: bold;
+        cursor: pointer;
+    }
+    header input {
+        flex: 1;
+        margin-left: 10px;
+        padding: 5px;
+        border-radius: 5px;
+        border: none;
+    }
+    main {
+        padding: 70px 10px 10px 10px; /* bosluk */
+    }
+    .recipe-card {
+        background: white;
+        padding: 10px;
+        margin-bottom: 10px;
+        border-radius: 10px;
+        border-left: 5px solid;
+    }
+    .recipe-title {
+        font-weight: bold;
+        font-size: 18px;
+    }
+    .ingredients {
+        font-size: 14px;
+        margin: 5px 0;
+    }
+    .ingredients .missing {
+        color: red;
+    }
+    .percent {
+        font-size: 14px;
+        color: #555;
+    }
+    .start-button {
+        display: block;
+        width: 100%;
+        margin-top: 10px;
+        background: #ff6347;
+        color: white;
+        padding: 8px;
+        border: none;
+        border-radius: 5px;
+        font-size: 16px;
+        cursor: pointer;
+    }
+    .floating-ai-button {
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    width: 60px;
+    height: 60px;
+    background-color: #ff9800;
+    color: white;
+    border-radius: 50%;
+    text-align: center;
+    line-height: 60px;
+    font-weight: bold;
+    font-size: 18px;
+    box-shadow: 0 4px 10px rgba(0,0,0,0.2);
+    z-index: 1000;
+    text-decoration: none;
+    transition: transform 0.2s;
+}
+.floating-ai-button:hover {
+    transform: scale(1.1);
+}
+</style>
+</head>
+<body>
+<header>
+    <div class="profile" onclick="goToProfile()">Profil</div>
+    <input type="text" id="search-bar" placeholder="Yemek ara..." oninput="filterRecipes()">
+</header>
+<main id="recipe-container">
+    {% for recipe in recipes %}
+    <div class="recipe-card" data-title="{{ recipe.title | lower }}" style="border-left-color: {% if recipe.percent_available == 100 %}green{% else %}red{% endif %}">
+        <div class="recipe-title">{{ recipe.title }}</div>
+        <div class="ingredients">
+            {% if recipe.percent_available == 100 %}
+                Tüm malzemeler mevcut
+            {% else %}
+                Eksik malzemeler:
+                {% for ing in recipe.ingredients %}
+                    {% if ing.name not in inventory | map(attribute='name') %}
+                        <span class="missing">{{ ing.name }}</span>{% if not loop.last %}, {% endif %}
+                    {% endif %}
+                {% endfor %}
+            {% endif %}
+        </div>
+        <div class="percent">Malzeme Miktarı: {{ recipe.percent_available }}%</div>
+        <button class="start-button" onclick="goToRecipe('{{ recipe.id }}')">Tarife Başla →</button>
+    </div>
+    {% endfor %}
+    <a href="/ai_assistant" class="floating-ai-button">AI</a>
+</main>
+
+<script>
+    function goToRecipe(recipeId) {
+    window.location.href = "/recipe/" + recipeId;
+}
+</script>
+
+<script>
+function goToProfile() {
+    window.location.href = "/profile";
+}
+
+function filterRecipes() {
+    const query = document.getElementById("search-bar").value.toLowerCase();
+    const cards = document.querySelectorAll(".recipe-card");
+    cards.forEach(card => {
+        const title = card.getAttribute("data-title");
+        if (title.includes(query)) {
+            card.style.display = "block";
+        } else {
+            card.style.display = "none";
+        }
+    });
+}
+</script>
+
+</body>
+</html>

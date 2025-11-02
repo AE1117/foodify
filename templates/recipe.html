@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>{{ recipe.title }}</title>
+
+    <style>
+
+
+.start-button {
+    position: fixed;      /* Sayfada sabit */
+    bottom: 20px;         /* Alttan boşluk */
+    left: 50%;            /* Ortala */
+    transform: translateX(-50%);
+    background-color: #ff6347; /* Header ile aynı renk */
+    color: white;
+    padding: 15px 30px;   /* Yeterli büyüklük */
+    font-size: 18px;
+    font-weight: bold;
+    border: none;
+    border-radius: 15px;  /* Oval köşe */
+    box-shadow: 0 5px 15px rgba(0,0,0,0.2); /* Hafif gölge */
+    cursor: pointer;
+    z-index: 1000;        /* Her zaman üstte */
+    transition: transform 0.2s, box-shadow 0.2s;
+}
+
+.start-button:hover {
+    transform: translateX(-50%) translateY(-3px); /* Hafif havada süzülme */
+    box-shadow: 0 8px 20px rgba(0,0,0,0.3);
+}
+</style>
+
+<style>
+    body {
+        margin: 0;
+        font-family: Arial, sans-serif;
+        background-color: #f9f9f9;
+    }
+
+    /* navbar, eader */
+    header {
+        position: fixed;
+        top: 0;
+        width: 100%;
+        background-color: #ff6347; /* turuncu */
+        color: white;
+        display: flex;
+        align-items: center;
+        padding: 10px 15px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+        z-index: 1000;
+    }
+
+    header a {
+        color: white;
+        text-decoration: none;
+        font-size: 18px;
+        font-weight: bold;
+        margin-right: 15px;
+    }
+
+    main {
+        margin-top: 60px;
+        padding: 20px;
+    }
+
+    h1 {
+        color: #333;
+    }
+
+    h3 {
+        color: #555;
+    }
+
+    ul, ol {
+        padding-left: 20px;
+    }
+
+    .ingredient {
+        margin-bottom: 5px;
+    }
+
+    .step {
+        margin-bottom: 10px;
+    }
+
+    .step .timer {
+        font-weight: bold;
+        color: #ff6347;
+        margin-left: 5px;
+    }
+</style>
+</head>
+<body>
+<header>
+    <!-- geri butonu -->
+    <a href="/">←</a>
+    <span>{{ recipe.title }}</span>
+</header>
+
+<main>
+    <h1>{{ recipe.title }}</h1>
+    <p><strong>Tahmini Süre:</strong> {{ recipe.estimated_time }}</p>
+    <p><strong>Oluşturan:</strong> {{ recipe.created_by }} - {{ recipe.created_at }}</p>
+
+    <h3>Malzemeler</h3>
+    <ul>
+        {% for ing in recipe.ingredients %}
+            <li class="ingredient">{{ ing.name }}{% if ing.amount %} - {{ ing.amount }}{% endif %}</li>
+        {% endfor %}
+    </ul>
+
+    <h3>Adımlar</h3>
+    <ol>
+        {% for step in recipe.steps %}
+            <li class="step">
+                {{ step.aciklama }}
+                {% if step.asama_turu == "kronometre" and step.kronometre_suresi %}
+                    <span class="timer">(Süre: {{ step.kronometre_suresi }})</span>
+                {% endif %}
+            </li>
+        {% endfor %}
+    </ol>
+    <br><br><br><br>
+
+<button class="start-button" onclick="startRecipe('{{ recipe.id }}')">Tarife Başla →</button>
+
+
+<script>
+function startRecipe(recipeId) {
+    window.location.href = "/steps/" + recipeId;
+}
+</script>
+
+</main>
+</body>
+</html>
