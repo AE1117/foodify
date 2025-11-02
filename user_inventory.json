@@ -1,0 +1,244 @@
+{
+  "inventory": [
+    {
+      "name": "Krema",
+      "amount": "1 adet"
+    },
+    {
+      "name": "Bayat Ekmek",
+      "amount": "1 adet"
+    },
+    {
+      "name": "İrmik",
+      "amount": "1 adet"
+    },
+    {
+      "name": "Karabiber",
+      "amount": "1 adet"
+    },
+    {
+      "name": "Salça",
+      "amount": "1 adet"
+    },
+    {
+      "name": "Normal Yoğurt",
+      "amount": "1 adet"
+    },
+    {
+      "name": "Sucuk",
+      "amount": "1 adet"
+    },
+    {
+      "name": "Tarçın",
+      "amount": "1 adet"
+    },
+    {
+      "name": "Yumurta",
+      "amount": "1 adet"
+    },
+    {
+      "name": "Kaşar Peyniri",
+      "amount": "1 adet"
+    },
+    {
+      "name": "Nar Ekşisi",
+      "amount": "1 adet"
+    },
+    {
+      "name": "Kuru Kayısı",
+      "amount": "1 adet"
+    },
+    {
+      "name": "Kekik",
+      "amount": "1 adet"
+    },
+    {
+      "name": "Kıyma",
+      "amount": "1 adet"
+    },
+    {
+      "name": "Tereyağı",
+      "amount": "1 adet"
+    },
+    {
+      "name": "Yumurta Sarısı",
+      "amount": "1 adet"
+    },
+    {
+      "name": "Maydanoz",
+      "amount": "1 adet"
+    },
+    {
+      "name": "Patates",
+      "amount": "1 adet"
+    },
+    {
+      "name": "Fettuccine Makarna",
+      "amount": "1 adet"
+    },
+    {
+      "name": "Biber Salçası",
+      "amount": "1 adet"
+    },
+    {
+      "name": "Yufka",
+      "amount": "1 adet"
+    },
+    {
+      "name": "Sıcak Su",
+      "amount": "1 adet"
+    },
+    {
+      "name": "Kapya Biber",
+      "amount": "1 adet"
+    },
+    {
+      "name": "Zeytinyağı",
+      "amount": "1 adet"
+    },
+    {
+      "name": "Sivri Biber",
+      "amount": "1 adet"
+    },
+    {
+      "name": "Soya Filizi",
+      "amount": "1 adet"
+    },
+    {
+      "name": "Tavuk Suyu",
+      "amount": "1 adet"
+    },
+    {
+      "name": "Spagetti Makarna",
+      "amount": "1 adet"
+    },
+    {
+      "name": "Beyaz Peynir",
+      "amount": "1 adet"
+    },
+    {
+      "name": "Biber (Yeşil)",
+      "amount": "1 adet"
+    },
+    {
+      "name": "Ekmek İçi",
+      "amount": "1 adet"
+    },
+    {
+      "name": "Baklavalık Yufka",
+      "amount": "1 adet"
+    },
+    {
+      "name": "Ceviz İçi",
+      "amount": "1 adet"
+    },
+    {
+      "name": "yeşil Biber",
+      "amount": "1 adet"
+    },
+    {
+      "name": "Nane",
+      "amount": "1 adet"
+    },
+    {
+      "name": "İnce Bulgur",
+      "amount": "1 adet"
+    },
+    {
+      "name": "Kaymak veya Dondurma",
+      "amount": "1 adet"
+    },
+    {
+      "name": "Kuru İncir",
+      "amount": "1 adet"
+    },
+    {
+      "name": "Kabartma Tozu",
+      "amount": "1 adet"
+    },
+    {
+      "name": "Pesto Sosu",
+      "amount": "1 adet"
+    },
+    {
+      "name": "Kıyma (Dana)",
+      "amount": "1 adet"
+    },
+    {
+      "name": "Pilavlık Bulgur",
+      "amount": "1 adet"
+    },
+    {
+      "name": "Tavuk But",
+      "amount": "1 adet"
+    },
+    {
+      "name": "Kimyon",
+      "amount": "1 adet"
+    },
+    {
+      "name": "Limon Suyu",
+      "amount": "1 adet"
+    },
+    {
+      "name": "Süt",
+      "amount": "1 adet"
+    },
+    {
+      "name": "Tuz, Karabiber",
+      "amount": "1 adet"
+    },
+    {
+      "name": "Nişasta",
+      "amount": "1 adet"
+    },
+    {
+      "name": "Kırmızı Biber Salçası",
+      "amount": "1 adet"
+    },
+    {
+      "name": "Kuru Üzüm",
+      "amount": "1 adet"
+    },
+    {
+      "name": "Kırmızı Mercimek",
+      "amount": "1 adet"
+    },
+    {
+      "name": "Tuz, Şeker",
+      "amount": "1 adet"
+    },
+    {
+      "name": "Havuç",
+      "amount": "1 adet"
+    },
+    {
+      "name": "Bezelye",
+      "amount": "1 adet"
+    },
+    {
+      "name": "Su",
+      "amount": "1 adet"
+    },
+    {
+      "name": "Soğan",
+      "amount": "1 adet"
+    },
+    {
+      "name": "Tuz",
+      "amount": "1 adet"
+    },
+    {
+      "name": "Domates",
+      "amount": "1 adet"
+    },
+    {
+      "name": "Enginar",
+      "amount": "1 adet"
+    },
+    {
+      "name": "Toz Şeker",
+      "amount": "1 adet"
+    }
+  ]
+}

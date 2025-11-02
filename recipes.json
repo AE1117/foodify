@@ -1,0 +1,1077 @@
+{
+  "recipes": [
+    {
+  "id": "default-002",
+  "title": "Mercimek Çorbası",
+  "keywords": [
+    "Çorba",
+    "Başlangıç",
+    "Sıcak",
+    "Sağlıklı",
+    "Vejetaryen",
+    "Mercimek",
+    "Pratik"
+  ],
+  "ingredients": [
+    {"name": "Kırmızı Mercimek", "amount": "1 su bardağı"},
+    {"name": "Soğan", "amount": "1 adet"},
+    {"name": "Havuç", "amount": "1 adet"},
+    {"name": "Zeytinyağı", "amount": "3 yemek kaşığı"},
+    {"name": "Su", "amount": "6 su bardağı"},
+    {"name": "Tuz", "amount": "1 çay kaşığı"},
+    {"name": "Nane", "amount": "1 tatlı kaşığı"}
+  ],
+  "steps": [
+    {"asama_turu": "normal", "aciklama": "Mercimekleri yıka ve süz."},
+    {"asama_turu": "normal", "aciklama": "Soğan ve havucu doğra."},
+    {"asama_turu": "normal", "aciklama": "Tencerede zeytinyağı ile soğan ve havucu kavur."},
+    {"asama_turu": "normal", "aciklama": "Mercimek ve suyu ekle."},
+    {"asama_turu": "kronometre", "kronometre_suresi": "20m", "aciklama": "Mercimekler yumuşayana kadar pişir."},
+    {"asama_turu": "normal", "aciklama": "Tuz ekle ve blenderdan geçir."},
+    {"asama_turu": "normal", "aciklama": "Ayrı bir tavada kalan zeytinyağı ve nane ile sos hazırlayıp çorbanın üzerine gezdir."}
+  ],
+  "estimated_time": "30m",
+  "created_by": "system",
+  "created_at": "2025-10-29T04:20:00+03:00"
+},
+    {
+  "id": "default-003",
+  "title": "Fırında Sebzeli Tavuk",
+  "keywords": [
+    "Et",
+    "Ana Yemek",
+    "Sıcak",
+    "Fırın",
+    "Tavuk",
+    "Pratik",
+    "Doyurucu"
+  ],
+  "ingredients": [
+    {"name": "Tavuk But", "amount": "4 adet"},
+    {"name": "Patates", "amount": "2 adet"},
+    {"name": "Biber", "amount": "2 adet"},
+    {"name": "Domates Salçası", "amount": "1 yemek kaşığı"},
+    {"name": "Zeytinyağı", "amount": "4 yemek kaşığı"},
+    {"name": "Kekik", "amount": "1 tatlı kaşığı"},
+    {"name": "Tuz", "amount": "1 çay kaşığı"}
+  ],
+  "steps": [
+    {"asama_turu": "normal", "aciklama": "Patates ve biberleri iri doğra."},
+    {"asama_turu": "normal", "aciklama": "Tavukları, sebzeleri, salçayı, zeytinyağını ve baharatları karıştır."},
+    {"asama_turu": "normal", "aciklama": "Karışımı fırın tepsisine diz."},
+    {"asama_turu": "kronometre", "kronometre_suresi": "40m", "aciklama": "Önceden ısıtılmış 180°C fırında pişir."}
+  ],
+  "estimated_time": "50m",
+  "created_by": "system",
+  "created_at": "2025-10-29T04:25:00+03:00"
+},
+    {
+  "id": "default-004",
+  "title": "Pesto Soslu Makarna",
+  "keywords": [
+    "Makarna",
+    "Ana Yemek",
+    "Hafif",
+    "Vejetaryen",
+    "Pratik",
+    "Fesleğen",
+    "İtalyan"
+  ],
+  "ingredients": [
+    {"name": "Spagetti Makarna", "amount": "1 paket"},
+    {"name": "Pesto Sosu", "amount": "4 yemek kaşığı"},
+    {"name": "Zeytinyağı", "amount": "1 yemek kaşığı"},
+    {"name": "Tuz", "amount": "Yeteri kadar"},
+    {"name": "Parmesan Peyniri", "amount": "2 yemek kaşığı"}
+  ],
+  "steps": [
+    {"asama_turu": "normal", "aciklama": "Geniş bir tencerede suyu kaynat, tuz ve zeytinyağını ekle."},
+    {"asama_turu": "kronometre", "kronometre_suresi": "8m", "aciklama": "Makarnayı paketin üzerindeki talimatlara göre haşla (al dente)."},
+    {"asama_turu": "normal", "aciklama": "Makarnayı süz ve haşlama suyundan yarım kepçe kadar ayır."},
+    {"asama_turu": "normal", "aciklama": "Makarnayı tekrar tencereye al, pesto sosunu ve ayırdığın suyu ekleyip karıştır."},
+    {"asama_turu": "normal", "aciklama": "Servis yaparken üzerine rendelenmiş Parmesan peyniri serp."}
+  ],
+  "estimated_time": "15m",
+  "created_by": "system",
+  "created_at": "2025-10-29T04:30:00+03:00"
+},
+    {
+  "id": "default-005",
+  "title": "Sade Pirinç Pilavı",
+  "keywords": [
+    "acı",
+    "Pilav",
+    "Yan Yemek",
+    "Klasik",
+    "Pratik",
+    "Türk Mutfağı"
+  ],
+  "ingredients": [
+    {"name": "Pirinç", "amount": "2 su bardağı"},
+    {"name": "Tereyağı", "amount": "1 yemek kaşığı"},
+    {"name": "Sıvı Yağ", "amount": "1 yemek kaşığı"},
+    {"name": "Tavuk Suyu", "amount": "3 su bardağı"},
+    {"name": "Tuz", "amount": "1 çay kaşığı"}
+  ],
+  "steps": [
+    {"asama_turu": "kronometre", "kronometre_suresi": "20m", "aciklama": "Pirinçleri sıcak ve tuzlu suda beklet, sonra iyice yıka ve süz."},
+    {"asama_turu": "normal", "aciklama": "Tencerede tereyağı ve sıvı yağı erit, pirinci ekleyip şeffaflaşana kadar kavur."},
+    {"asama_turu": "normal", "aciklama": "Sıcak suyu/suyu ve tuzu ekle, karıştır."},
+    {"asama_turu": "kronometre", "kronometre_suresi": "12m", "aciklama": "Kısık ateşte suyu çekene kadar pişir."},
+    {"asama_turu": "kronometre", "kronometre_suresi": "10m", "aciklama": "Ocağın altını kapat, tencerenin üzerine kağıt havlu koyup kapağını kapat ve demlenmeye bırak."}
+  ],
+  "estimated_time": "45m",
+  "created_by": "system",
+  "created_at": "2025-10-29T04:35:00+03:00"
+},
+    {
+  "id": "default-006",
+  "title": "Gavurdağı Salatası",
+  "keywords": [
+    "Salata",
+    "Meze",
+    "Yöresel",
+    "Soğuk",
+    "Vejetaryen",
+    "Domates",
+    "Pratik"
+  ],
+  "ingredients": [
+    {"name": "Domates", "amount": "4 adet"},
+    {"name": "Salatalık", "amount": "2 adet"},
+    {"name": "Soğan (Kırmızı)", "amount": "1/2 adet"},
+    {"name": "Biber (Yeşil)", "amount": "1 adet"},
+    {"name": "Maydanoz", "amount": "1/2 demet"},
+    {"name": "Ceviz İçi", "amount": "2 yemek kaşığı"},
+    {"name": "Zeytinyağı", "amount": "3 yemek kaşığı"},
+    {"name": "Nar Ekşisi", "amount": "1 yemek kaşığı"}
+  ],
+  "steps": [
+    {"asama_turu": "normal", "aciklama": "Tüm sebzeleri (domates, salatalık, soğan, biber) ve maydanozu çok küçük küpler halinde doğra."},
+    {"asama_turu": "normal", "aciklama": "Doğradığın sebzeleri geniş bir kaseye al."},
+    {"asama_turu": "normal", "aciklama": "Zeytinyağı ve nar ekşisini ekle, iyice karıştır."},
+    {"asama_turu": "normal", "aciklama": "Üzerine dövülmüş ceviz içini serpiştir."},
+    {"asama_turu": "kronometre", "kronometre_suresi": "10m", "aciklama": "Buzdolabında dinlendirerek soğuk servis yap."}
+  ],
+  "estimated_time": "20m",
+  "created_by": "system",
+  "created_at": "2025-10-29T04:40:00+03:00"
+},
+    {
+    "id": "default-013",
+    "title": "Hünkar Beğendi",
+    "keywords": [
+      "Ana Yemek",
+      "Kıyma",
+      "Et Yemeği",
+      "Patlıcan",
+      "Osmanlı Mutfağı"
+    ],
+    "ingredients": [
+      {"name": "Kıyma", "amount": "300 gr"},
+      {"name": "Soğan", "amount": "1 adet"},
+      {"name": "Domates", "amount": "2 adet"},
+      {"name": "Patlıcan", "amount": "4 adet"},
+      {"name": "Tereyağı", "amount": "2 yemek kaşığı (beğendi için)"},
+      {"name": "Un", "amount": "1 yemek kaşığı (beğendi için)"},
+      {"name": "Süt", "amount": "1 su bardağı (beğendi için)"},
+      {"name": "Kaşar Peyniri", "amount": "1/2 su bardağı (beğendi için)"},
+      {"name": "Zeytinyağı", "amount": "3 yemek kaşığı"},
+      {"name": "Tuz, Karabiber", "amount": "Gerektiği kadar"}
+    ],
+    "steps": [
+      {"asama_turu": "normal", "aciklama": "Patlıcanları közleyin. Fırında veya ocakta kabukları yumuşayıp içi eriyene kadar közlenebilir."},
+      {"asama_turu": "kronometre", "kronometre_suresi": "20m", "aciklama": "Patlıcanların közlenmesi için yaklaşık 20 dakika bekleyin. Közlenen patlıcanları kabuklarını soyup ince ince doğrayın."},
+      {"asama_turu": "normal", "aciklama": "Beğendi için: Bir tencerede tereyağını eritin, un ekleyip 1 dakika kavurun. Doğradığınız patlıcanları ve sıcak sütü ekleyin."},
+      {"asama_turu": "normal", "aciklama": "Karışım koyulaşınca rendelenmiş kaşar peyniri, tuz ve karabiberi ekleyip ocaktan alın."},
+      {"asama_turu": "normal", "aciklama": "Et harcı için: Soğanı doğrayın ve zeytinyağında kavurun. Kıymayı ekleyip rengi dönene kadar kavurun."},
+      {"asama_turu": "normal", "aciklama": "Domatesleri küp küp doğrayıp kıymaya ekleyin. Tuz ve karabiber ekleyin."},
+      {"asama_turu": "kronometre", "kronometre_suresi": "15m", "aciklama": "Kıyma harcı suyunu çekip kıvam alana kadar yaklaşık 15 dakika kısık ateşte pişirin."},
+      {"asama_turu": "normal", "aciklama": "Servis tabağına önce beğendiyi yayın, üzerine hazırladığınız kıymalı harcı gezdirerek servis yapın."}
+    ],
+    "estimated_time": "60m",
+    "created_by": "system",
+    "created_at": "2025-10-31T00:00:00+03:00"
+  },
+  {
+    "id": "default-014",
+    "title": "İslim Kebabı (Kürdan Kebabı)",
+    "keywords": [
+      "Ana Yemek",
+      "Et",
+      "Patlıcan",
+      "Fırın Yemeği",
+      "Geleneksel"
+    ],
+    "ingredients": [
+      {"name": "Kıyma (Dana)", "amount": "400 gr (köfte için)"},
+      {"name": "Soğan", "amount": "1/2 adet (köfte için)"},
+      {"name": "Patlıcan", "amount": "3 adet (uzun boy)"},
+      {"name": "Domates", "amount": "2 adet (üzeri için)"},
+      {"name": "Biber", "amount": "4 adet (üzeri için)"},
+      {"name": "Sıvı Yağ", "amount": "Gerektiği kadar (kızartmak için)"},
+      {"name": "Salça", "amount": "1 yemek kaşığı (sos için)"},
+      {"name": "Sıcak Su", "amount": "1 su bardağı (sos için)"},
+      {"name": "Tuz", "amount": "Gerektiği kadar"}
+    ],
+    "steps": [
+      {"asama_turu": "normal", "aciklama": "Patlıcanları alacalı soyun ve boylamasına ince dilimler halinde kesin. Tuzlu suda 10 dakika bekletin."},
+      {"asama_turu": "normal", "aciklama": "Kıyma, soğan, tuz ve baharatları karıştırıp yoğurun ve ceviz büyüklüğünde köfteler hazırlayın."},
+      {"asama_turu": "normal", "aciklama": "Patlıcanları sudan çıkarıp kurulayın. Sıvı yağda hafifçe kızartın veya az yağlı fırında pişirin."},
+      {"asama_turu": "normal", "aciklama": "Kızarttığınız patlıcan dilimlerinden iki tanesini artı (+) şeklinde üst üste koyun. Ortasına bir köfte yerleştirin."},
+      {"asama_turu": "normal", "aciklama": "Patlıcanları köftenin üzerinde toplayın ve bir kürdan batırın. Kürdanın tepesine bir domates ve biber dilimi yerleştirin. Tüm köfte ve patlıcanları bu şekilde hazırlayın."},
+      {"asama_turu": "normal", "aciklama": "Salça, sıcak su ve tuzu karıştırarak sosu hazırlayın ve kebapların bulunduğu fırın tepsisine dökün."},
+      {"asama_turu": "normal", "aciklama": "Önceden 180°C'ye ısıtılmış fırında pişirmeye bırakın."},
+      {"asama_turu": "kronometre", "kronometre_suresi": "25m", "aciklama": "Köfteler pişip patlıcanlar yumuşayana kadar yaklaşık 25 dakika pişirin."},
+      {"asama_turu": "normal", "aciklama": "Sıcak olarak servis yapın."}
+    ],
+    "estimated_time": "50m",
+    "created_by": "system",
+    "created_at": "2025-10-31T00:01:00+03:00"
+  },
+  {
+    "id": "default-015",
+    "title": "Zeytinyağlı Enginar",
+    "keywords": [
+      "Zeytinyağlı",
+      "Meze",
+      "Soğuk",
+      "Enginar",
+      "Vejetaryen"
+    ],
+    "ingredients": [
+      {"name": "Enginar", "amount": "4 adet"},
+      {"name": "Havuç", "amount": "1 adet"},
+      {"name": "Patates", "amount": "1 adet"},
+      {"name": "Bezelye", "amount": "1/2 su bardağı"},
+      {"name": "Soğan", "amount": "1/2 adet"},
+      {"name": "Zeytinyağı", "amount": "1/2 çay bardağı"},
+      {"name": "Limon Suyu", "amount": "1/2 adet"},
+      {"name": "Su", "amount": "1 su bardağı"},
+      {"name": "Tuz, Şeker", "amount": "Gerektiği kadar"}
+    ],
+    "steps": [
+      {"asama_turu": "normal", "aciklama": "Geniş bir tencereye zeytinyağını dökün, küp doğranmış soğanları ekleyip hafifçe kavurun."},
+      {"asama_turu": "normal", "aciklama": "Havuç ve patates küplerini ekleyip 2 dakika daha kavurun."},
+      {"asama_turu": "normal", "aciklama": "Enginarları tencereye, çukur kısımları yukarı bakacak şekilde dizin."},
+      {"asama_turu": "normal", "aciklama": "Enginar çukurlarına havuç, patates ve bezelye karışımından doldurun."},
+      {"asama_turu": "normal", "aciklama": "Limon suyu, su, tuz ve bir tutam şekeri bir kapta karıştırın ve tencereye ekleyin."},
+      {"asama_turu": "normal", "aciklama": "Tencerenin kapağını kapatın ve kısık ateşte pişmeye bırakın."},
+      {"asama_turu": "kronometre", "kronometre_suresi": "35m", "aciklama": "Enginarlar yumuşayana kadar yaklaşık 30-35 dakika pişirin. Tencereyi ocaktan alın."},
+      {"asama_turu": "kronometre", "kronometre_suresi": "120m", "aciklama": "Oda sıcaklığına geldikten sonra buzdolabında en az 2 saat dinlendirip soğuk servis yapın."}
+    ],
+    "estimated_time": "180m",
+    "created_by": "system",
+    "created_at": "2025-10-31T00:02:00+03:00"
+  },
+  {
+    "id": "default-016",
+    "title": "Haydari",
+    "keywords": [
+      "Meze",
+      "Yoğurtlu",
+      "Soğuk",
+      "Sarımsak",
+      "Dip"
+    ],
+    "ingredients": [
+      {"name": "Süzme Yoğurt", "amount": "1 su bardağı"},
+      {"name": "Tereyağı", "amount": "2 yemek kaşığı"},
+      {"name": "Nane", "amount": "1 tatlı kaşığı"},
+      {"name": "Sarımsak", "amount": "2 diş"},
+      {"name": "Beyaz Peynir", "amount": "2 yemek kaşığı"},
+      {"name": "Zeytinyağı", "amount": "1 yemek kaşığı (üzeri için)"},
+      {"name": "Tuz", "amount": "Gerektiği kadar"}
+    ],
+    "steps": [
+      {"asama_turu": "normal", "aciklama": "Süzme yoğurdu bir kaseye alın."},
+      {"asama_turu": "normal", "aciklama": "Sarımsakları ezin ve yoğurda ekleyin."},
+      {"asama_turu": "normal", "aciklama": "Ezilmiş beyaz peyniri ve tuzu da ekleyip iyice karıştırın."},
+      {"asama_turu": "normal", "aciklama": "Bir tavada tereyağını eritin. Nane ekleyip rengi dönmeden ocaktan alın."},
+      {"asama_turu": "normal", "aciklama": "Hazırladığınız tereyağlı nane karışımını yoğurda ekleyip karıştırın."},
+      {"asama_turu": "kronometre", "kronometre_suresi": "30m", "aciklama": "Haydariyi buzdolabında dinlendirerek lezzetlerin birbirine geçmesini sağlayın. En az 30 dakika bekletin."},
+      {"asama_turu": "normal", "aciklama": "Servis yapmadan önce üzerine zeytinyağı gezdirin."}
+    ],
+    "estimated_time": "40m",
+    "created_by": "system",
+    "created_at": "2025-10-31T00:03:00+03:00"
+  },
+  {
+    "id": "default-017",
+    "title": "Kremalı Mantar Çorbası",
+    "keywords": [
+      "Çorba",
+      "Mantar",
+      "Kremalı",
+      "Sıcak",
+      "Başlangıç"
+    ],
+    "ingredients": [
+      {"name": "Kültür Mantarı", "amount": "400 gr"},
+      {"name": "Tereyağı", "amount": "2 yemek kaşığı"},
+      {"name": "Un", "amount": "1 yemek kaşığı"},
+      {"name": "Et Suyu", "amount": "4 su bardağı"},
+      {"name": "Sıvı Krema", "amount": "200 ml"},
+      {"name": "Tuz", "amount": "Gerektiği kadar"},
+      {"name": "Karabiber", "amount": "Gerektiği kadar"}
+    ],
+    "steps": [
+      {"asama_turu": "normal", "aciklama": "Mantarın yarısını küp küp doğrayın, diğer yarısını ince dilimleyin."},
+      {"asama_turu": "normal", "aciklama": "Tencerede tereyağını eritin. Küp mantarları ekleyip suyunu salıp çekene kadar kavurun."},
+      {"asama_turu": "normal", "aciklama": "Unu ekleyip 1 dakika daha kavurun."},
+      {"asama_turu": "normal", "aciklama": "Sıcak suyu yavaş yavaş ve sürekli karıştırarak ekleyin."},
+      {"asama_turu": "normal", "aciklama": "Tuz ve karabiberi ekleyin. Kaynamaya başlayınca ocağı kısın."},
+      {"asama_turu": "kronometre", "kronometre_suresi": "15m", "aciklama": "Çorbayı kısık ateşte 15 dakika pişirin."},
+      {"asama_turu": "normal", "aciklama": "İnce dilimlediğiniz mantarları bir tavada tereyağı ile soteleyin ve çorbaya ekleyin."},
+      {"asama_turu": "normal", "aciklama": "Sıvı kremayı ekleyip karıştırın. Bir taşım kaynatıp ocaktan alın."},
+      {"asama_turu": "normal", "aciklama": "Sıcak olarak servis yapın."}
+    ],
+    "estimated_time": "30m",
+    "created_by": "system",
+    "created_at": "2025-10-31T00:04:00+03:00"
+  },
+  {
+    "id": "default-018",
+    "title": "Sigara Böreği",
+    "keywords": [
+      "Börek",
+      "Hamur İşi",
+      "Atıştırmalık",
+      "Kızartma",
+      "Peynirli"
+    ],
+    "ingredients": [
+      {"name": "Yufka", "amount": "3 adet"},
+      {"name": "Beyaz Peynir", "amount": "200 gr"},
+      {"name": "Maydanoz", "amount": "1/2 demet"},
+      {"name": "Sıvı Yağ", "amount": "Gerektiği kadar (kızartmak için)"},
+      {"name": "Su", "amount": "Bir miktar (kapatmak için)"}
+    ],
+    "steps": [
+      {"asama_turu": "normal", "aciklama": "Beyaz peyniri çatalla ezin ve kıyılmış maydanoz ile karıştırın."},
+      {"asama_turu": "normal", "aciklama": "Yufkayı sekiz eşit üçgen parçaya bölün."},
+      {"asama_turu": "normal", "aciklama": "Her bir üçgen parçanın geniş ucuna peynirli harçtan bir miktar koyun."},
+      {"asama_turu": "normal", "aciklama": "Kenarlarını içe katlayın ve sigara şeklinde rulo yapın. Son ucunu su ile ıslatıp yapıştırın."},
+      {"asama_turu": "normal", "aciklama": "Geniş bir tavada sıvı yağı kızdırın."},
+      {"asama_turu": "normal", "aciklama": "Börekleri kızgın yağa atın."},
+      {"asama_turu": "kronometre", "kronometre_suresi": "5m", "aciklama": "Böreklerin her iki tarafını da altın rengi alana kadar yaklaşık 5 dakika kızartın."},
+      {"asama_turu": "normal", "aciklama": "Kızaran börekleri kağıt havlu serilmiş bir tabağa alarak fazla yağını süzdürün."},
+      {"asama_turu": "normal", "aciklama": "Sıcak servis yapın."}
+    ],
+    "estimated_time": "25m",
+    "created_by": "system",
+    "created_at": "2025-10-31T00:05:00+03:00"
+  },
+  {
+    "id": "default-019",
+    "title": "Tavuk Sote",
+    "keywords": [
+      "Ana Yemek",
+      "Tavuk",
+      "Sote",
+      "Pratik",
+      "Tek Tencere"
+    ],
+    "ingredients": [
+      {"name": "Tavuk Göğsü", "amount": "500 gr"},
+      {"name": "Soğan", "amount": "1 adet"},
+      {"name": "Sivri Biber", "amount": "3 adet"},
+      {"name": "Domates", "amount": "2 adet"},
+      {"name": "Sıvı Yağ", "amount": "2 yemek kaşığı"},
+      {"name": "Kekik", "amount": "1 çay kaşığı"},
+      {"name": "Pul Biber", "amount": "1/2 çay kaşığı"},
+      {"name": "Tuz", "amount": "Gerektiği kadar"}
+    ],
+    "steps": [
+      {"asama_turu": "normal", "aciklama": "Tavuk göğsünü küp küp doğrayın. Soğanı ve biberleri de doğrayın."},
+      {"asama_turu": "normal", "aciklama": "Geniş bir tavada sıvı yağı ısıtın. Tavukları ekleyip suyunu salıp çekene kadar kavurun."},
+      {"asama_turu": "normal", "aciklama": "Soğanları ekleyip pembeleşinceye kadar 2 dakika daha kavurun."},
+      {"asama_turu": "normal", "aciklama": "Biberleri ve domatesleri (küp doğranmış) ekleyin."},
+      {"asama_turu": "normal", "aciklama": "Tuz, karabiber, kekik ve pul biberi ekleyip karıştırın."},
+      {"asama_turu": "kronometre", "kronometre_suresi": "15m", "aciklama": "Tavuklar yumuşayıp sebzelerle özdeşleşene kadar tavanın kapağı kapalı olarak 15 dakika pişirin."},
+      {"asama_turu": "normal", "aciklama": "Sıcak olarak servis yapın."}
+    ],
+    "estimated_time": "30m",
+    "created_by": "system",
+    "created_at": "2025-10-31T00:06:00+03:00"
+  },
+  {
+    "id": "default-020",
+    "title": "Ispanaklı Gül Böreği",
+    "keywords": [
+      "Börek",
+      "Hamur İşi",
+      "Ispanak",
+      "Fırın Yemeği",
+      "Vejetaryen"
+    ],
+    "ingredients": [
+      {"name": "Yufka", "amount": "5 adet"},
+      {"name": "Ispanak", "amount": "500 gr"},
+      {"name": "Soğan", "amount": "1 adet (kıyılmış)"},
+      {"name": "Sıvı Yağ", "amount": "3 yemek kaşığı"},
+      {"name": "Sıvı Yağ", "amount": "1/2 su bardağı"},
+      {"name": "Süt", "amount": "1/2 su bardağı"},
+      {"name": "Yumurta Sarısı", "amount": "1 adet"},
+      {"name": "Tuz", "amount": "Gerektiği kadar"}
+    ],
+    "steps": [
+      {"asama_turu": "normal", "aciklama": "Ispanakları yıkayıp ince ince doğrayın. Kıyılmış soğan ile sıvı yağda kavurun. Tuz ve pul biber ekleyip soğumaya bırakın."},
+      {"asama_turu": "normal", "aciklama": "Sosu için sıvı yağ ve sütü bir kapta karıştırın."},
+      {"asama_turu": "normal", "aciklama": "Bir yufkayı tezgaha serin ve sosun yarısını fırça ile sürün. Yufkayı ikiye katlayın."},
+      {"asama_turu": "normal", "aciklama": "Uzun kenara iç harcın 1/5'ini yayın. Rulo şeklinde sarın ve kendi etrafında dolayarak gül şekli verin."},
+      {"asama_turu": "normal", "aciklama": "Kalan yufkalara da aynı işlemi uygulayarak tüm börekleri hazırlayın ve yağlı kağıt serili tepsiye dizin."},
+      {"asama_turu": "normal", "aciklama": "Üzerine yumurta sarısı sürün ve isteğe bağlı susam serpin."},
+      {"asama_turu": "normal", "aciklama": "Önceden 180°C'ye ısıtılmış fırına yerleştirin."},
+      {"asama_turu": "kronometre", "kronometre_suresi": "35m", "aciklama": "Börekler nar gibi kızarana kadar yaklaşık 35 dakika pişirin."},
+      {"asama_turu": "normal", "aciklama": "Sıcak veya ılık servis yapın."}
+    ],
+    "estimated_time": "60m",
+    "created_by": "system",
+    "created_at": "2025-10-31T00:07:00+03:00"
+  },
+  {
+    "id": "default-021",
+    "title": "Aşure",
+    "keywords": [
+      "Tatlı",
+      "Geleneksel",
+      "Bakliyat",
+      "Kışlık",
+      "Meyveli"
+    ],
+    "ingredients": [
+      {"name": "Aşurelik Buğday", "amount": "1 su bardağı"},
+      {"name": "Nohut", "amount": "1/2 su bardağı"},
+      {"name": "Kuru Fasulye", "amount": "1/2 su bardağı"},
+      {"name": "Şeker", "amount": "2 su bardağı (isteğe göre)"},
+      {"name": "Süt", "amount": "1/2 su bardağı (isteğe bağlı)"},
+      {"name": "Kuru Kayısı", "amount": "1/2 su bardağı"},
+      {"name": "Kuru Üzüm", "amount": "1/4 su bardağı"},
+      {"name": "İncir", "amount": "1/4 su bardağı"},
+      {"name": "Tarçın", "amount": "Süslemek için"}
+    ],
+    "steps": [
+      {"asama_turu": "normal", "aciklama": "Buğday, nohut ve kuru fasulyeyi ayrı ayrı yıkayıp bir gece önceden üzerlerini geçecek kadar su ile ıslatın."},
+      {"asama_turu": "kronometre", "kronometre_suresi": "12h", "aciklama": "Bakliyatların şişmesi için en az 12 saat bekleyin."},
+      {"asama_turu": "normal", "aciklama": "Buğdayı yeni su ile tencerede yumuşayana kadar haşlayın."},
+      {"asama_turu": "normal", "aciklama": "Nohut ve kuru fasulyeyi de ayrı ayrı haşlayın. Haşlama sularını süzün."},
+      {"asama_turu": "normal", "aciklama": "Buğdayın üzerine haşlanmış nohut, fasulye, kayısı ve kuru üzümü ekleyin. Üzerini 3-4 parmak geçecek kadar sıcak su ekleyin."},
+      {"asama_turu": "normal", "aciklama": "Karıştırıp kaynamaya bırakın. Kaynamaya başlayınca şekeri ve isterseniz sütü ekleyin."},
+      {"asama_turu": "kronometre", "kronometre_suresi": "60m", "aciklama": "Kısık ateşte karıştırarak yaklaşık 1 saat daha pişirin. Son 10 dakikada inciri ekleyin."},
+      {"asama_turu": "normal", "aciklama": "Aşureyi kaselere paylaştırın. Oda sıcaklığına geldikten sonra buzdolabında soğutun."},
+      {"asama_turu": "normal", "aciklama": "Servis yapmadan önce ceviz, nar ve tarçın ile süsleyin."}
+    ],
+    "estimated_time": "150m",
+    "created_by": "system",
+    "created_at": "2025-10-31T00:08:00+03:00"
+  },
+  {
+    "id": "default-022",
+    "title": "Cacık",
+    "keywords": [
+      "Meze",
+      "Yoğurtlu",
+      "Soğuk",
+      "Salatalık",
+      "Dip"
+    ],
+    "ingredients": [
+      {"name": "Süzme Yoğurt", "amount": "1 su bardağı"},
+      {"name": "Normal Yoğurt", "amount": "2 su bardağı"},
+      {"name": "Salatalık", "amount": "2 adet (rendelenmiş/küp)"},
+      {"name": "Sarımsak", "amount": "1 diş (ezilmiş)"},
+      {"name": "Su", "amount": "1/2 su bardağı (kıvam için)"},
+      {"name": "Kuru Nane", "amount": "1 tatlı kaşığı"},
+      {"name": "Zeytinyağı", "amount": "1 yemek kaşığı (üzeri için)"},
+      {"name": "Tuz", "amount": "Gerektiği kadar"}
+    ],
+    "steps": [
+      {"asama_turu": "normal", "aciklama": "Salatalıkları rendeleyin veya çok küçük küpler halinde doğrayın."},
+      {"asama_turu": "normal", "aciklama": "Geniş bir kasede süzme yoğurt, normal yoğurt, ezilmiş sarımsak, nane ve tuzu karıştırın."},
+      {"asama_turu": "normal", "aciklama": "Karışıma salatalıkları ekleyin."},
+      {"asama_turu": "normal", "aciklama": "Kıvamını ayarlamak için yavaş yavaş su ekleyin. İstenilen akışkanlıkta olana kadar karıştırın."},
+      {"asama_turu": "kronometre", "kronometre_suresi": "15m", "aciklama": "Buzdolabında 15 dakika dinlendirerek soğutun."},
+      {"asama_turu": "normal", "aciklama": "Servis yapmadan önce kaselere alın ve üzerine zeytinyağı gezdirin."}
+    ],
+    "estimated_time": "25m",
+    "created_by": "system",
+    "created_at": "2025-10-31T00:09:00+03:00"
+  },
+  {
+    "id": "default-023",
+    "title": "İmam Bayıldı",
+    "keywords": [
+      "Zeytinyağlı",
+      "Ana Yemek",
+      "Patlıcan",
+      "Vejetaryen",
+      "Soğuk Servis"
+    ],
+    "ingredients": [
+      {"name": "Patlıcan", "amount": "3 adet"},
+      {"name": "Soğan", "amount": "2 adet (piyazlık doğranmış)"},
+      {"name": "Sarımsak", "amount": "4 diş (doğranmış)"},
+      {"name": "Domates", "amount": "2 adet (küp doğranmış)"},
+      {"name": "Maydanoz", "amount": "1/4 demet"},
+      {"name": "Zeytinyağı", "amount": "1 su bardağı (kızartma ve pişirme için)"},
+      {"name": "Tuz", "amount": "Gerektiği kadar"}
+    ],
+    "steps": [
+      {"asama_turu": "normal", "aciklama": "Patlıcanları alacalı soyun. Ortadan derin bir çizik atın ancak iki ucunu kesmeyin. Tuzlu suda 30 dakika bekletin."},
+      {"asama_turu": "normal", "aciklama": "Patlıcanları kurulayın. Geniş bir tavada zeytinyağının yarısını ısıtın ve patlıcanları her tarafı yumuşayana kadar kızartın. Fazla yağını süzdürün."},
+      {"asama_turu": "normal", "aciklama": "İç harç için: Kalan zeytinyağını tavada ısıtın. Soğan ve sarımsağı yumuşayana kadar kavurun."},
+      {"asama_turu": "normal", "aciklama": "Domatesleri, tuzu, şekeri ve maydanozu ekleyip 5 dakika daha kavurun."},
+      {"asama_turu": "normal", "aciklama": "Kızarmış patlıcanları fırın tepsisine dizin. Ortalarındaki yarığı açın ve iç harcı doldurun."},
+      {"asama_turu": "normal", "aciklama": "Tepsinin dibine bir miktar su ekleyin (yaklaşık yarım su bardağı)."},
+      {"asama_turu": "normal", "aciklama": "Önceden 180°C'ye ısıtılmış fırında pişirmeye bırakın."},
+      {"asama_turu": "kronometre", "kronometre_suresi": "40m", "aciklama": "Patlıcanlar tamamen yumuşayıp yemeğin suyu azalana kadar yaklaşık 40 dakika pişirin."},
+      {"asama_turu": "kronometre", "kronometre_suresi": "120m", "aciklama": "Yemeği fırından alın ve oda sıcaklığına gelene kadar bekletin. En az 2 saat buzdolabında dinlendirip soğuk servis yapın."}
+    ],
+    "estimated_time": "200m",
+    "created_by": "system",
+    "created_at": "2025-10-31T00:10:00+03:00"
+  },
+  {
+    "id": "default-024",
+    "title": "Sucuklu Kuru Fasulye",
+    "keywords": [
+      "Ana Yemek",
+      "Bakliyat",
+      "Geleneksel",
+      "Kış Yemeği",
+      "Sulu Yemek"
+    ],
+    "ingredients": [
+      {"name": "Kuru Fasulye", "amount": "2 su bardağı"},
+      {"name": "Sucuk", "amount": "100 gr"},
+      {"name": "Soğan", "amount": "1 adet"},
+      {"name": "Domates Salçası", "amount": "1 yemek kaşığı"},
+      {"name": "Biber Salçası", "amount": "1 çay kaşığı"},
+      {"name": "Sıvı Yağ", "amount": "2 yemek kaşığı"},
+      {"name": "Sıcak Su", "amount": "Gerektiği kadar"},
+      {"name": "Tuz", "amount": "Gerektiği kadar"}
+    ],
+    "steps": [
+      {"asama_turu": "normal", "aciklama": "Kuru fasulyeyi yıkayın ve bir gece önceden bol su içinde ıslatın."},
+      {"asama_turu": "kronometre", "kronometre_suresi": "12h", "aciklama": "Fasulyenin şişmesi için en az 12 saat bekleyin. Ertesi gün suyunu süzün."},
+      {"asama_turu": "normal", "aciklama": "Fasulyeyi yeni su ile 10 dakika haşlayın, tekrar suyunu süzün (gaz yapmaması için)."},
+      {"asama_turu": "normal", "aciklama": "Tencerede sıvı yağı ısıtın, soğanları ekleyip pembeleşene kadar kavurun."},
+      {"asama_turu": "normal", "aciklama": "Salçaları ekleyip kokusu çıkana kadar kavurun."},
+      {"asama_turu": "normal", "aciklama": "Sucuk dilimlerini ekleyin ve 1-2 dakika kavurun."},
+      {"asama_turu": "normal", "aciklama": "Haşlanmış fasulyeyi, tuzu, pul biberi ve yemeğin üzerini 2-3 parmak geçecek kadar sıcak su ekleyin."},
+      {"asama_turu": "normal", "aciklama": "Tencerenin kapağını kapatın ve kaynamaya bırakın."},
+      {"asama_turu": "kronometre", "kronometre_suresi": "90m", "aciklama": "Fasulyeler yumuşayana ve suyu kıvamlanana kadar yaklaşık 1.5 saat kısık ateşte pişirin. (Düdüklü tencerede bu süre 20 dakikadır.)"},
+      {"asama_turu": "normal", "aciklama": "Sıcak olarak servis yapın."}
+    ],
+    "estimated_time": "140m",
+    "created_by": "system",
+    "created_at": "2025-10-31T00:11:00+03:00"
+  },
+  {
+    "id": "default-025",
+    "title": "Köz Domates Çorbası",
+    "keywords": [
+      "Çorba",
+      "Domates",
+      "Közlenmiş",
+      "Sıcak",
+      "Başlangıç"
+    ],
+    "ingredients": [
+      {"name": "Domates", "amount": "5 adet (büyük boy)"},
+      {"name": "Kapya Biber", "amount": "1 adet"},
+      {"name": "Sarımsak", "amount": "4 diş"},
+      {"name": "Zeytinyağı", "amount": "3 yemek kaşığı"},
+      {"name": "Un", "amount": "1 yemek kaşığı"},
+      {"name": "Et Suyu", "amount": "5 su bardağı"},
+      {"name": "Krema", "amount": "1/2 çay bardağı"},
+      {"name": "Tuz", "amount": "Gerektiği kadar"}
+    ],
+    "steps": [
+      {"asama_turu": "normal", "aciklama": "Domates, kapya biber ve sarımsakları yağlı kağıt serili fırın tepsisine dizin. Üzerlerine zeytinyağı gezdirin."},
+      {"asama_turu": "normal", "aciklama": "Önceden 200°C'ye ısıtılmış fırında közlemeye bırakın."},
+      {"asama_turu": "kronometre", "kronometre_suresi": "30m", "aciklama": "Sebzeler yumuşayıp kabukları kararıncaya kadar yaklaşık 30 dakika közleyin. Fırından alıp kabuklarını soyun."},
+      {"asama_turu": "normal", "aciklama": "Közlenmiş sebzeleri bir tencereye alın ve el blender'ı ile pürüzsüz hale getirin."},
+      {"asama_turu": "normal", "aciklama": "Ayrı bir tavada tereyağını eritin ve unu kokusu çıkana kadar kavurun. Ardından ezilmiş sebzelerin üzerine dökün."},
+      {"asama_turu": "normal", "aciklama": "Et suyunu (veya suyu) yavaş yavaş ekleyerek karıştırın."},
+      {"asama_turu": "normal", "aciklama": "Tuz, karabiber ve kekik ile tatlandırın."},
+      {"asama_turu": "kronometre", "kronometre_suresi": "10m", "aciklama": "Çorbayı kısık ateşte 10 dakika kaynatın. Ocağı kapattıktan sonra krema ekleyip karıştırın."},
+      {"asama_turu": "normal", "aciklama": "Sıcak servis yapın."}
+    ],
+    "estimated_time": "50m",
+    "created_by": "system",
+    "created_at": "2025-10-31T00:12:00+03:00"
+  },
+  {
+    "id": "default-026",
+    "title": "Laz Böreği",
+    "keywords": [
+      "Tatlı",
+      "Börek",
+      "Muhallebi",
+      "Şerbetli",
+      "Karadeniz Mutfağı"
+    ],
+    "ingredients": [
+      {"name": "Baklavalık Yufka", "amount": "12 adet"},
+      {"name": "Süt", "amount": "1 litre (muhallebi için)"},
+      {"name": "Toz Şeker", "amount": "1 su bardağı (muhallebi için)"},
+      {"name": "Un", "amount": "2 yemek kaşığı (muhallebi için)"},
+      {"name": "Nişasta", "amount": "2 yemek kaşığı (muhallebi için)"},
+      {"name": "Yumurta Sarısı", "amount": "1 adet (muhallebi için)"},
+      {"name": "Tereyağı", "amount": "150 gr (yufkalar için)"},
+      {"name": "Şeker", "amount": "2 su bardağı"},
+      {"name": "Su", "amount": "1.5 su bardağı"},
+      {"name": "Limon Suyu", "amount": "Birkaç damla"}
+    ],
+    "steps": [
+      {"asama_turu": "normal", "aciklama": "Şerbet için: Şeker ve suyu tencerede kaynatın. Kaynamaya başlayınca limon suyunu ekleyip ocağı kapatın ve soğumaya bırakın."},
+      {"asama_turu": "normal", "aciklama": "Muhallebi için: Süt, şeker, un, nişasta ve yumurta sarısını tencerede karıştırın. Kaynayıp koyulaşana kadar sürekli karıştırarak pişirin. Ocaktan alın ve ılınmaya bırakın."},
+      {"asama_turu": "normal", "aciklama": "Fırın tepsisini tereyağı ile yağlayın. 6 kat yufkayı aralarına eritilmiş tereyağı sürerek üst üste dizin."},
+      {"asama_turu": "normal", "aciklama": "Ilık muhallebiyi yufkaların üzerine yayın."},
+      {"asama_turu": "normal", "aciklama": "Kalan 6 kat yufkayı da aralarına tereyağı sürerek muhallebinin üzerine kapatın."},
+      {"asama_turu": "normal", "aciklama": "Böreği istediğiniz şekilde dilimleyin (genellikle kare). Üzerine kalan tereyağını sürün."},
+      {"asama_turu": "normal", "aciklama": "Önceden 180°C'ye ısıtılmış fırında pişirmeye bırakın."},
+      {"asama_turu": "kronometre", "kronometre_suresi": "40m", "aciklama": "Üzeri altın sarısı ve çıtır çıtır olana kadar yaklaşık 40 dakika pişirin."},
+      {"asama_turu": "normal", "aciklama": "Fırından çıkan sıcak böreğin üzerine soğuk şerbeti gezdirerek dökün."},
+      {"asama_turu": "kronometre", "kronometre_suresi": "60m", "aciklama": "Şerbetini çekmesi ve lezzetlerin oturması için en az 1 saat dinlendirin."},
+      {"asama_turu": "normal", "aciklama": "Soğuk servis yapın."}
+    ],
+    "estimated_time": "120m",
+    "created_by": "system",
+    "created_at": "2025-10-31T00:13:00+03:00"
+  },
+  {
+    "id": "default-027",
+    "title": "Şehriyeli Bulgur Pilavı",
+    "keywords": [
+      "Pilav",
+      "Bulgur",
+      "Yan Lezzet",
+      "Pratik",
+      "Vejetaryen"
+    ],
+    "ingredients": [
+      {"name": "Pilavlık Bulgur", "amount": "1 su bardağı"},
+      {"name": "Arpa Şehriye", "amount": "1/2 su bardağı"},
+      {"name": "Tereyağı", "amount": "1 yemek kaşığı"},
+      {"name": "Sıvı Yağ", "amount": "1 yemek kaşığı"},
+      {"name": "Et Suyu", "amount": "2.5 su bardağı"},
+      {"name": "Tuz", "amount": "1 çay kaşığı"}
+    ],
+    "steps": [
+      {"asama_turu": "normal", "aciklama": "Bulguru yıkayıp süzün."},
+      {"asama_turu": "normal", "aciklama": "Tencerede tereyağı ve sıvı yağı eritin."},
+      {"asama_turu": "normal", "aciklama": "Arpa şehriyeyi ekleyip rengi dönene kadar kavurun."},
+      {"asama_turu": "normal", "aciklama": "Yıkanmış bulguru ekleyip 1-2 dakika daha kavurun."},
+      {"asama_turu": "normal", "aciklama": "Sıcak su (veya et suyu) ve tuzu ekleyip bir kez karıştırın."},
+      {"asama_turu": "normal", "aciklama": "Tencerenin kapağını kapatın. Yüksek ateşte kaynamaya başlayınca ateşi en kısığa alın."},
+      {"asama_turu": "kronometre", "kronometre_suresi": "15m", "aciklama": "Bulgur suyu çekip yumuşayana kadar yaklaşık 15 dakika pişirin. Ocağın altını kapatın."},
+      {"asama_turu": "normal", "aciklama": "Tencerenin üzerine kağıt havlu serip kapağını tekrar kapatın."},
+      {"asama_turu": "kronometre", "kronometre_suresi": "10m", "aciklama": "Pilavın demlenmesi için 10 dakika bekleyin."},
+      {"asama_turu": "normal", "aciklama": "Demlenen pilavı servis yapmadan önce karıştırın."}
+    ],
+    "estimated_time": "30m",
+    "created_by": "system",
+    "created_at": "2025-10-31T00:14:00+03:00"
+  },
+  {
+    "id": "default-028",
+    "title": "Karnıyarık",
+    "keywords": [
+      "Ana Yemek",
+      "Patlıcan",
+      "Kıyma",
+      "Fırın Yemeği",
+      "Geleneksel"
+    ],
+    "ingredients": [
+      {"name": "Patlıcan", "amount": "4 adet"},
+      {"name": "Kıyma", "amount": "200 gr"},
+      {"name": "Soğan", "amount": "1 adet"},
+      {"name": "Domates", "amount": "2 adet"},
+      {"name": "Biber", "amount": "1 adet"},
+      {"name": "Maydanoz", "amount": "Bir tutam"},
+      {"name": "Sıvı Yağ", "amount": "Gerektiği kadar (kızartma ve pişirme için)"},
+      {"name": "Salça", "amount": "1 tatlı kaşığı (sos için)"},
+      {"name": "Sıcak Su", "amount": "1 su bardağı (sos için)"},
+      {"name": "Tuz", "amount": "Gerektiği kadar"}
+    ],
+    "steps": [
+      {"asama_turu": "normal", "aciklama": "Patlıcanları alacalı soyun. Boylamasına derin bir çizik atın. Tuzlu suda 30 dakika bekletin."},
+      {"asama_turu": "normal", "aciklama": "Patlıcanları kurulayın ve bol sıvı yağda kızartın. Fazla yağını süzmek için kağıt havlu üzerine alın."},
+      {"asama_turu": "normal", "aciklama": "İç harç için: Tavada sıvı yağ ile soğan ve biberi kavurun. Kıyma ekleyip suyunu çekene kadar kavurun."},
+      {"asama_turu": "normal", "aciklama": "Domatesleri, tuzu ve karabiberi ekleyip 5 dakika daha pişirin. Son olarak maydanozu ekleyin."},
+      {"asama_turu": "normal", "aciklama": "Kızarmış patlıcanları fırın tepsisine dizin. Ortalarındaki yarığı açın ve iç harcı doldurun."},
+      {"asama_turu": "normal", "aciklama": "Salça ve sıcak su ile sosu hazırlayın ve tepsiye dökün."},
+      {"asama_turu": "normal", "aciklama": "Önceden 180°C'ye ısıtılmış fırında pişirmeye bırakın."},
+      {"asama_turu": "kronometre", "kronometre_suresi": "25m", "aciklama": "Patlıcanlar ve kıyma harcı özdeşleşene kadar yaklaşık 25 dakika pişirin."},
+      {"asama_turu": "normal", "aciklama": "Sıcak olarak servis yapın."}
+    ],
+    "estimated_time": "60m",
+    "created_by": "system",
+    "created_at": "2025-10-31T00:15:00+03:00"
+  },
+  {
+    "id": "default-029",
+    "title": "Tavuklu Mantarlı Kremalı Makarna",
+    "keywords": [
+      "Ana Yemek",
+      "Makarna",
+      "Tavuk",
+      "Kremalı",
+      "İtalyan Tarzı"
+    ],
+    "ingredients": [
+      {"name": "Fettuccine Makarna", "amount": "300 gr"},
+      {"name": "Tavuk Göğsü", "amount": "250 gr"},
+      {"name": "Kültür Mantarı", "amount": "200 gr"},
+      {"name": "Sarımsak", "amount": "2 diş (ezilmiş)"},
+      {"name": "Sıvı Krema", "amount": "200 ml"},
+      {"name": "Tereyağı", "amount": "1 yemek kaşığı"},
+      {"name": "Zeytinyağı", "amount": "1 yemek kaşığı"},
+      {"name": "Tuz", "amount": "Gerektiği kadar"},
+      {"name": "Maydanoz", "amount": "Bir tutam (kıyılmış)"}
+    ],
+    "steps": [
+      {"asama_turu": "normal", "aciklama": "Makarnayı bol tuzlu suda haşlamaya başlayın."},
+      {"asama_turu": "kronometre", "kronometre_suresi": "10m", "aciklama": "Makarnayı paketin üzerinde belirtilen süre kadar (genellikle 8-10 dakika) pişirin. Sudan almadan önce bir miktar haşlama suyu ayırın."},
+      {"asama_turu": "normal", "aciklama": "Tavukları küp küp doğrayın. Geniş bir tavada zeytinyağını ısıtın ve tavukları rengi dönene kadar soteleyin."},
+      {"asama_turu": "normal", "aciklama": "Tereyağı ve mantarları (dilimlenmiş) tavaya ekleyin. Mantarlar suyunu salıp çekene kadar kavurun."},
+      {"asama_turu": "normal", "aciklama": "Ezilmiş sarımsağı ekleyip 1 dakika daha kavurun."},
+      {"asama_turu": "normal", "aciklama": "Sıvı kremayı, tuz ve karabiberi ekleyin. Sosu karıştırarak kısık ateşte ısıtın."},
+      {"asama_turu": "kronometre", "kronometre_suresi": "5m", "aciklama": "Krema sosu hafifçe koyulaşana kadar 5 dakika pişirin."},
+      {"asama_turu": "normal", "aciklama": "Haşlanmış makarnayı süzün ve tavaya, kremalı sosa ekleyin. Gerekirse ayırdığınız makarnanın haşlama suyundan ekleyin."},
+      {"asama_turu": "normal", "aciklama": "Makarnayı sosla iyice harmanlayıp sıcak servis yapın. Üzerine kıyılmış maydanoz serpin."}
+    ],
+    "estimated_time": "30m",
+    "created_by": "system",
+    "created_at": "2025-10-31T00:16:00+03:00"
+  },
+  {
+    "id": "default-030",
+    "title": "Fıstıklı İncir Tatlısı",
+    "keywords": [
+      "Tatlı",
+      "Kuru Meyve",
+      "Şerbetli",
+      "Fırın Yemeği",
+      "Yöresel"
+    ],
+    "ingredients": [
+      {"name": "Kuru İncir", "amount": "12 adet"},
+      {"name": "Su", "amount": "Gerektiği kadar"},
+      {"name": "Toz Şeker", "amount": "1 su bardağı"},
+      {"name": "Su", "amount": "1 su bardağı"},
+      {"name": "Ceviz İçi", "amount": "1/2 su bardağı"},
+      {"name": "Kaymak veya Dondurma", "amount": "Servis için"}
+    ],
+    "steps": [
+      {"asama_turu": "normal", "aciklama": "Kuru incirleri ılık su dolu bir kapta 10 dakika bekletin, yumuşayınca suyunu süzün ve sap kısımlarını kesin."},
+      {"asama_turu": "kronometre", "kronometre_suresi": "10m", "aciklama": "İncirlerin yumuşaması için 10 dakika bekleyin."},
+      {"asama_turu": "normal", "aciklama": "İncirlerin içini ceviz içi ile doldurun ve fırın tepsisine dizin."},
+      {"asama_turu": "normal", "aciklama": "Şerbet için: Şeker ve suyu bir tencerede karıştırın. Kaynamaya başlayınca ocağın altını kapatın."},
+      {"asama_turu": "normal", "aciklama": "Sıcak şerbeti incirlerin üzerine gezdirerek dökün."},
+      {"asama_turu": "normal", "aciklama": "Tepsiyi önceden 180°C'ye ısıtılmış fırında pişirmeye bırakın."},
+      {"asama_turu": "kronometre", "kronometre_suresi": "25m", "aciklama": "İncirler yumuşayıp şerbetini çekene kadar yaklaşık 25 dakika pişirin."},
+      {"asama_turu": "kronometre", "kronometre_suresi": "60m", "aciklama": "Fırından çıkan tatlıyı oda sıcaklığında en az 1 saat dinlendirerek soğutun."},
+      {"asama_turu": "normal", "aciklama": "Servis yaparken üzerine birer kaşık kaymak veya dondurma ekleyin."}
+    ],
+    "estimated_time": "100m",
+    "created_by": "system",
+    "created_at": "2025-10-31T00:17:00+03:00"
+  },
+  {
+    "id": "default-031",
+    "title": "Meksika Fasulyeli Salata",
+    "keywords": [
+      "Salata",
+      "Meze",
+      "Bakliyat",
+      "Soğuk",
+      "Vejetaryen"
+    ],
+    "ingredients": [
+      {"name": "Meksika Fasulyesi", "amount": "1 kutu"},
+      {"name": "Konerve Mısır", "amount": "1/2 kutu"},
+      {"name": "Kapya Biber", "amount": "1 adet (küp doğranmış)"},
+      {"name": "Sivri Biber", "amount": "1 adet (küp doğranmış)"},
+      {"name": "Maydanoz", "amount": "1/2 demet"},
+      {"name": "Zeytinyağı", "amount": "3 yemek kaşığı"},
+      {"name": "Limon Suyu", "amount": "1/2 adet"},
+      {"name": "Nar Ekşisi", "amount": "1 yemek kaşığı (isteğe bağlı)"},
+      {"name": "Tuz", "amount": "Gerektiği kadar"}
+    ],
+    "steps": [
+      {"asama_turu": "normal", "aciklama": "Meksika fasulyesi ve mısırın suyunu süzün ve durulayın."},
+      {"asama_turu": "normal", "aciklama": "Kapya biber, sivri biber ve maydanozu ince ince doğrayın."},
+      {"asama_turu": "normal", "aciklama": "Tüm malzemeleri geniş bir salata kasesinde birleştirin."},
+      {"asama_turu": "normal", "aciklama": "Ayrı bir kapta zeytinyağı, limon suyu, nar ekşisi, tuz ve pul biberi çırparak sosu hazırlayın."},
+      {"asama_turu": "normal", "aciklama": "Sosu salatanın üzerine dökün ve iyice karıştırın."},
+      {"asama_turu": "kronometre", "kronometre_suresi": "20m", "aciklama": "Salatanın lezzetlerinin birbirine karışması için buzdolabında 20 dakika dinlendirin."},
+      {"asama_turu": "normal", "aciklama": "Soğuk servis yapın."}
+    ],
+    "estimated_time": "30m",
+    "created_by": "system",
+    "created_at": "2025-10-31T00:18:00+03:00"
+  },
+  {
+    "id": "default-032",
+    "title": "Patates Oturtma",
+    "keywords": [
+      "Ana Yemek",
+      "Kıyma",
+      "Patates",
+      "Sulu Yemek",
+      "Fırın Yemeği"
+    ],
+    "ingredients": [
+      {"name": "Patates", "amount": "5 adet (halka dilimlenmiş)"},
+      {"name": "Kıyma", "amount": "200 gr"},
+      {"name": "Soğan", "amount": "1 adet (doğranmış)"},
+      {"name": "yeşil Biber", "amount": "2 adet (doğranmış)"},
+      {"name": "Domates Salçası", "amount": "1 yemek kaşığı"},
+      {"name": "Sıvı Yağ", "amount": "2 yemek kaşığı (kıyma için)"},
+      {"name": "Su", "amount": "2 su bardağı"},
+      {"name": "Tuz", "amount": "Gerektiği kadar"}
+    ],
+    "steps": [
+      {"asama_turu": "normal", "aciklama": "İç harç için: Sıvı yağda soğan ve biberi kavurun. Kıyma ekleyip rengi dönene kadar kavurun."},
+      {"asama_turu": "normal", "aciklama": "Tuz, pul biber ve domates salçasının yarısını ekleyip karıştırın. Harcı ocaktan alın."},
+      {"asama_turu": "normal", "aciklama": "Halka dilimlenmiş patateslerin yarısını fırın tepsisine dizin."},
+      {"asama_turu": "normal", "aciklama": "Üzerine kıymalı harcı yayın."},
+      {"asama_turu": "normal", "aciklama": "Kalan patates dilimlerini de harcın üzerine kapatın."},
+      {"asama_turu": "normal", "aciklama": "Sosu için: Kalan salçayı 2 su bardağı sıcak su ve bir miktar tuz ile karıştırın. Tepsiyi gezdirerek dökün."},
+      {"asama_turu": "normal", "aciklama": "Tepsiyi önceden 200°C'ye ısıtılmış fırına yerleştirin."},
+      {"asama_turu": "kronometre", "kronometre_suresi": "40m", "aciklama": "Patatesler tamamen yumuşayıp üzeri kızarana kadar yaklaşık 40 dakika pişirin."},
+      {"asama_turu": "normal", "aciklama": "Fırından çıktıktan sonra 5 dakika dinlendirip sıcak servis yapın."}
+    ],
+    "estimated_time": "60m",
+    "created_by": "system",
+    "created_at": "2025-10-31T00:19:00+03:00"
+  },
+  {
+    "id": "default-033",
+    "title": "Tavuklu Çin Böreği (Spring Rolls)",
+    "keywords": [
+      "Atıştırmalık",
+      "Asya Mutfağı",
+      "Kızartma",
+      "Tavuk",
+      "Sebzeli"
+    ],
+    "ingredients": [
+      {"name": "Yufka", "amount": "1 paket (10 adet)"},
+      {"name": "Tavuk Göğsü", "amount": "200 gr"},
+      {"name": "Havuç", "amount": "1 adet"},
+      {"name": "Lahana", "amount": "1/4 adet"},
+      {"name": "Soya Filizi", "amount": "1/2 su bardağı"},
+      {"name": "Soya Sosu", "amount": "2 yemek kaşığı"},
+      {"name": "Sıvı Yağ", "amount": "Gerektiği kadar (kızartma ve sote için)"},
+      {"name": "Tuz", "amount": "Gerektiği kadar"}
+    ],
+    "steps": [
+      {"asama_turu": "normal", "aciklama": "Tavukları sıvı yağda soteleyin. Soya sosu ve zencefil tozu ile tatlandırın."},
+      {"asama_turu": "normal", "aciklama": "Havucu ve lahanayı ekleyin. Sebzeler diri kalacak şekilde yüksek ateşte hızlıca kavurun."},
+      {"asama_turu": "normal", "aciklama": "Soya filizlerini ekleyip ocaktan alın. İç harcı soğumaya bırakın."},
+      {"asama_turu": "normal", "aciklama": "Yufkayı açın. Köşesini içe doğru katlayın, harçtan koyun. İki yanını da içe katlayıp rulo şeklinde sıkıca sarın. Kenarını su ile yapıştırın."},
+      {"asama_turu": "normal", "aciklama": "Geniş bir tencerede bol sıvı yağı kızdırın."},
+      {"asama_turu": "normal", "aciklama": "Hazırlanan börekleri kızgın yağa atın."},
+      {"asama_turu": "kronometre", "kronometre_suresi": "5m", "aciklama": "Börekler altın rengini alana kadar her iki tarafını da çevirerek 4-5 dakika kızartın."},
+      {"asama_turu": "normal", "aciklama": "Kağıt havlu serili tabağa alıp sıcak olarak soya sosu ile servis yapın."}
+    ],
+    "estimated_time": "30m",
+    "created_by": "system",
+    "created_at": "2025-10-31T00:20:00+03:00"
+  },
+  {
+    "id": "default-034",
+    "title": "Ekmek Üstü Köfte (Islama Köfte)",
+    "keywords": [
+      "Ana Yemek",
+      "Köfte",
+      "Ekmek",
+      "Kırmızı Et",
+      "Yöresel"
+    ],
+    "ingredients": [
+      {"name": "Kıyma", "amount": "500 gr"},
+      {"name": "Ekmek İçi", "amount": "2 dilim"},
+      {"name": "Soğan", "amount": "1 adet"},
+      {"name": "Yumurta", "amount": "1 adet"},
+      {"name": "Kırmızı Biber Salçası", "amount": "1 yemek kaşığı (ıslama suyu için)"},
+      {"name": "Et Suyu", "amount": "1 su bardağı (ıslama suyu için)"},
+      {"name": "Bayat Ekmek", "amount": "6 dilim"},
+      {"name": "Sıvı Yağ", "amount": "Gerektiği kadar (ızgara/kızartma için)"},
+      {"name": "Tuz", "amount": "Gerektiği kadar"},
+      {"name": "Kimyon", "amount": "Gerektiği kadar"}
+    ],
+    "steps": [
+      {"asama_turu": "normal", "aciklama": "Kıyma, soğan, yumurta, ıslatılıp sıkılmış ekmek içi, tuz ve kimyonu yoğurun. Köfte harcını yarım saat dinlendirin."},
+      {"asama_turu": "kronometre", "kronometre_suresi": "30m", "aciklama": "Köfte harcının lezzetlerinin birbirine karışması için 30 dakika buzdolabında dinlendirin."},
+      {"asama_turu": "normal", "aciklama": "Köfteleri yassı ve uzun şekillerde hazırlayın."},
+      {"asama_turu": "normal", "aciklama": "Islama suyu için: Salçayı, et suyunu, tuzu ve biraz sıvı yağı karıştırıp ısıtın."},
+      {"asama_turu": "normal", "aciklama": "Dilimlenmiş bayat ekmekleri bu ıslama suyuna hızlıca batırıp çıkarın ve ızgarada/tavada ısıtın."},
+      {"asama_turu": "normal", "aciklama": "Köfteleri ısıtılmış ızgarada veya az yağlı tavada kızartın."},
+      {"asama_turu": "kronometre", "kronometre_suresi": "10m", "aciklama": "Köftelerin her yüzeyi iyice kızarana kadar yaklaşık 10 dakika pişirin."},
+      {"asama_turu": "normal", "aciklama": "Servis tabağına önce ıslatılmış ekmekleri dizin, üzerine köfteleri yerleştirip sıcak servis yapın."}
+    ],
+    "estimated_time": "50m",
+    "created_by": "system",
+    "created_at": "2025-10-31T00:21:00+03:00"
+  },
+  {
+    "id": "default-035",
+    "title": "Sütlaç (Fırın Sütlaç)",
+    "keywords": [
+      "Tatlı",
+      "Sütlü",
+      "Pirinç",
+      "Fırın",
+      "Klasik"
+    ],
+    "ingredients": [
+      {"name": "Pirinç", "amount": "1/2 su bardağı"},
+      {"name": "Su", "amount": "1 su bardağı"},
+      {"name": "Süt", "amount": "1 litre"},
+      {"name": "Toz Şeker", "amount": "1.5 su bardağı"},
+      {"name": "Pirinç Unu veya Nişasta", "amount": "2 yemek kaşığı"},
+      {"name": "Su", "amount": "1/2 su bardağı"},
+      {"name": "Yumurta Sarısı", "amount": "1 adet (üzeri için, isteğe bağlı)"}
+    ],
+    "steps": [
+      {"asama_turu": "normal", "aciklama": "Pirinçleri yıkayın ve 1 su bardağı su ile ateşe koyun. Pirinçler suyu çekene kadar haşlayın."},
+      {"asama_turu": "kronometre", "kronometre_suresi": "15m", "aciklama": "Pirinçler yumuşayıp suyunu çekene kadar 15 dakika pişirin."},
+      {"asama_turu": "normal", "aciklama": "Haşlanmış pirinçlerin üzerine sütü ve şekeri ekleyin. Orta ateşte sürekli karıştırarak kaynamaya bırakın."},
+      {"asama_turu": "normal", "aciklama": "Ayrı bir kapta pirinç unu (veya nişastayı) yarım su bardağı su ile ezin."},
+      {"asama_turu": "normal", "aciklama": "Kaynayan sütlacın içine nişastalı karışımı yavaşça ve sürekli karıştırarak ekleyin. Bir taşım daha kaynatın."},
+      {"asama_turu": "kronometre", "kronometre_suresi": "10m", "aciklama": "Sütlacı kısık ateşte 10 dakika karıştırarak pişirin. Ocaktan alın."},
+      {"asama_turu": "normal", "aciklama": "Sütlacı fırın güveçlerine paylaştırın. Fırın tepsisine biraz su doldurun ve kaseleri içine yerleştirin."},
+      {"asama_turu": "normal", "aciklama": "İsteğe bağlı: Bir kasede yumurta sarısını çırpıp sütlaçların üzerine sürün."},
+      {"asama_turu": "normal", "aciklama": "Önceden 200°C ısıtılmış fırında, sadece üstten ısıtma ayarında (ızgara) pişirin."},
+      {"asama_turu": "kronometre", "kronometre_suresi": "10m", "aciklama": "Sütlaçların üzeri kızarana kadar yaklaşık 10 dakika pişirin."},
+      {"asama_turu": "normal", "aciklama": "Fırından çıktıktan sonra oda sıcaklığına gelmesini bekleyin ve soğuk servis yapın."}
+    ],
+    "estimated_time": "70m",
+    "created_by": "system",
+    "created_at": "2025-10-31T00:22:00+03:00"
+  },
+  {
+    "id": "default-036",
+    "title": "Ezogelin Çorbası",
+    "keywords": [
+      "Çorba",
+      "Mercimek",
+      "Nane",
+      "Baharatlı",
+      "Sıcak"
+    ],
+    "ingredients": [
+      {"name": "Kırmızı Mercimek", "amount": "1 su bardağı"},
+      {"name": "Pirinç", "amount": "1/4 su bardağı"},
+      {"name": "Bulgur", "amount": "2 yemek kaşığı"},
+      {"name": "Domates Salçası", "amount": "1 yemek kaşığı"},
+      {"name": "Kuru Nane", "amount": "1 tatlı kaşığı"},
+      {"name": "Pul Biber", "amount": "1 tatlı kaşığı"},
+      {"name": "Sıvı Yağ", "amount": "2 yemek kaşığı"},
+      {"name": "Su", "amount": "6 su bardağı"},
+      {"name": "Tuz", "amount": "Gerektiği kadar"}
+    ],
+    "steps": [
+      {"asama_turu": "normal", "aciklama": "Mercimek, pirinç ve bulguru yıkayıp süzün."},
+      {"asama_turu": "normal", "aciklama": "Tencereye yıkanmış bakliyatları ve suyu ekleyin. Kaynamaya bırakın."},
+      {"asama_turu": "normal", "aciklama": "Kaynamaya başlayınca ocağı kısın."},
+      {"asama_turu": "kronometre", "kronometre_suresi": "40m", "aciklama": "Mercimekler yumuşayıp çorba kıvam alana kadar yaklaşık 40 dakika pişirin."},
+      {"asama_turu": "normal", "aciklama": "Sosu için: Küçük bir tavada sıvı yağı ısıtın. Salçayı ekleyip kokusu çıkana kadar kavurun."},
+      {"asama_turu": "normal", "aciklama": "Ocaktan almadan önce nane ve pul biberi ekleyip 10 saniye kızdırın."},
+      {"asama_turu": "normal", "aciklama": "Hazırladığınız sosu çorbaya ekleyin ve tuzunu ayarlayın. Karıştırın."},
+      {"asama_turu": "normal", "aciklama": "Bir taşım daha kaynatıp ocaktan alın ve sıcak servis yapın."}
+    ],
+    "estimated_time": "55m",
+    "created_by": "system",
+    "created_at": "2025-10-31T00:23:00+03:00"
+  },
+  {
+    "id": "default-037",
+    "title": "Fellah Köftesi",
+    "keywords": [
+      "Ana Yemek",
+      "Bulgur",
+      "Vejetaryen",
+      "Köfte",
+      "Yöresel"
+    ],
+    "ingredients": [
+      {"name": "İnce Bulgur", "amount": "1 su bardağı"},
+      {"name": "Sıcak Su", "amount": "1 su bardağı (ıslatmak için)"},
+      {"name": "İrmik", "amount": "1/2 su bardağı"},
+      {"name": "Un", "amount": "1 yemek kaşığı"},
+      {"name": "Salça", "amount": "1 tatlı kaşığı (köfteye)"},
+      {"name": "Domates Salçası", "amount": "1 yemek kaşığı (sos için)"},
+      {"name": "Sarımsak", "amount": "3 diş (sos için)"},
+      {"name": "Zeytinyağı", "amount": "4 yemek kaşığı (sos için)"},
+      {"name": "Maydanoz", "amount": "Bir tutam (üzeri için)"},
+      {"name": "Tuz", "amount": "Gerektiği kadar"},
+      {"name": "Pul Biber", "amount": "Gerektiği kadar"},
+      {"name": "Kimyon", "amount": "Gerektiği kadar"}
+    ],
+    "steps": [
+      {"asama_turu": "normal", "aciklama": "İnce bulguru ve irmiği geniş bir kaseye alın. Üzerine 1 su bardağı sıcak su ekleyin. Kaseyi kapatın."},
+      {"asama_turu": "kronometre", "kronometre_suresi": "10m", "aciklama": "Bulgurun şişmesi için 10 dakika bekleyin."},
+      {"asama_turu": "normal", "aciklama": "Şişen bulgura un, salça, tuz, kimyon ve pul biberi ekleyin. İyice yoğurarak sert bir köfte hamuru elde edin."},
+      {"asama_turu": "normal", "aciklama": "Harcı küçük parçalara ayırın ve serçe parmağınızla ortasına bastırarak minik köfteler yapın."},
+      {"asama_turu": "normal", "aciklama": "Geniş bir tencerede bol su kaynatın. Hazırladığınız köfteleri suya atın."},
+      {"asama_turu": "kronometre", "kronometre_suresi": "10m", "aciklama": "Köfteler su yüzeyine çıkana kadar (yaklaşık 8-10 dakika) haşlayın. Sudan kevgirle alın."},
+      {"asama_turu": "normal", "aciklama": "Sos için: Tavada zeytinyağını ısıtın. Salçayı ekleyip kavurun. Ezilmiş sarımsak, pul biber ve tuzu ekleyin."},
+      {"asama_turu": "normal", "aciklama": "Haşlanmış köfteleri sosun içine ekleyin ve 1-2 dakika karıştırın."},
+      {"asama_turu": "normal", "aciklama": "Ocağı kapattıktan sonra kıyılmış maydanoz serpip yoğurt eşliğinde sıcak servis yapın."}
+    ],
+    "estimated_time": "40m",
+    "created_by": "system",
+    "created_at": "2025-10-31T00:24:00+03:00"
+  },
+  {
+    "id": "default-038",
+    "title": "Kalburabastı",
+    "keywords": [
+      "Tatlı",
+      "ekşi",
+      "Hamur İşi",
+      "Şerbetli",
+      "Geleneksel",
+      "Cevizli"
+    ],
+    "ingredients": [
+      {"name": "Tereyağı", "amount": "125 gr"},
+      {"name": "Sıvı Yağ", "amount": "1/2 çay bardağı"},
+      {"name": "Yumurta", "amount": "1 adet"},
+      {"name": "Yoğurt", "amount": "1 yemek kaşığı"},
+      {"name": "Kabartma Tozu", "amount": "1 paket"},
+      {"name": "Un", "amount": "Gerektiği kadar (yaklaşık 3 su bardağı)"},
+      {"name": "Ceviz İçi", "amount": "1 su bardağı"},
+      {"name": "Şeker", "amount": "3 su bardağı"},
+      {"name": "Su", "amount": "2.5 su bardağı"},
+      {"name": "Limon Suyu", "amount": "Birkaç damla"}
+    ],
+    "steps": [
+      {"asama_turu": "normal", "aciklama": "Şerbet için: Şeker ve suyu karıştırın. Kaynayınca limon suyunu ekleyip ocağın altını kapatın ve tamamen soğumaya bırakın."},
+      {"asama_turu": "normal", "aciklama": "Hamur için: Tereyağı, sıvı yağ, yumurta ve yoğurdu karıştırın. Kabartma tozu ve unu yavaş yavaş ekleyerek yumuşak bir hamur yoğurun."},
+      {"asama_turu": "normal", "aciklama": "Hamurdan ceviz büyüklüğünde parçalar koparın."},
+      {"asama_turu": "normal", "aciklama": "Her bir parçayı rendenin tırtıklı tarafı, kevgir veya bir kalbur üzerine hafifçe bastırarak açın. Ortasına ceviz koyup kapatın."},
+      {"asama_turu": "normal", "aciklama": "Hazırladığınız tatlıları yağlanmış fırın tepsisine dizin."},
+      {"asama_turu": "normal", "aciklama": "Önceden 180°C'ye ısıtılmış fırında pişirmeye bırakın."},
+      {"asama_turu": "kronometre", "kronometre_suresi": "30m", "aciklama": "Üzerleri kızarana kadar yaklaşık 30 dakika pişirin. Fırından çıkan sıcak tatlıyı 5 dakika bekletin."},
+      {"asama_turu": "normal", "aciklama": "Sıcak tatlının üzerine soğuk şerbeti gezdirerek dökün."},
+      {"asama_turu": "kronometre", "kronometre_suresi": "120m", "aciklama": "Şerbeti tamamen çekmesi için en az 2 saat dinlendirin."},
+      {"asama_turu": "normal", "aciklama": "Servis yapın."}
+    ],
+    "estimated_time": "180m",
+    "created_by": "system",
+    "created_at": "2025-10-31T00:25:00+03:00"
+  }
+
+
+
+  ]
+}
