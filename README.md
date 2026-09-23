@@ -1,3 +1,7 @@
+<img width="1920" height="1440" alt="420shots_so" src="https://github.com/user-attachments/assets/6b7024cd-c376-46ee-a6cd-f2afb2425078" />
+<br>
+<br>
+<br>
 This program was designed to inspire people to love cooking. Step-by-step recipes can be completed, the users inventory can be dynamically tracked, and recipe suggestions can be made based on the words typed, using rule-based artificial intelligence without an internet connection. These suggestions can also vary depending on the user. The technologies used in its development include:
 
     - Fronted = HTML, CSS, JS
